@@ -1,24 +1,30 @@
-# jp-frontend
+## Project
 
-## Project setup
-```
-npm install
-```
+This repository is a sub-repository of [https://github.com/hellokvn/jp-api](https://github.com/hellokvn/jp-api).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Description
 
-### Compiles and minifies for production
-```
-npm run build
-```
+A backend needs a frontend. It’s written in Vue 3 (Class-based + Single File Components) and TypeScript.
 
-### Lints and fixes files
-```
-npm run lint
+## Installation
+
+```bash
+$ npm install
+
+Create file: .env.local
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Running the app
+
+```bash
+# development
+$ npm run serve
+
+# production mode
+$ npm run build
+```
+
+## Frameworks
+
+[Vue 3](https://github.com/vuejs/vue) is an open-source SPA framework.
+[Bulma](https://github.com/jgthms/bulma) is a modern CSS framework based on Flexbox.
